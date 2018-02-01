@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    
+    
 //    //1.创建串行队列(像个大炮管道，每个炮代表一个任务)
 //    dispatch_queue_t serialQueue =dispatch_queue_create("com.myProject.queue1", DISPATCH_QUEUE_SERIAL);
 //    //获取主队列(串行队列）这个队列比较特殊，因为需要一直运行 所以不能阻塞 一般没有在标记在哪个队列的，都是在主队列
